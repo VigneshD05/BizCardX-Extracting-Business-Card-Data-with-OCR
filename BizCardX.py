@@ -14,11 +14,10 @@ import re
 if __name__ == "__main__":
     # Main Streamlit code starts
     # SETTING PAGE CONFIGURATIONS
-    # icon = Image.open("guvi_logo.png")
+    
     st.set_page_config(
         page_title="BizCardX: Extracting Business Card Data with OCR | By IRG",
-        #page_icon=icon,
-        layout="wide",
+                layout="wide",
         initial_sidebar_state="expanded",
         menu_items={'About': """# This application is created for GUVI Capstone Project3 by *IRG!*"""}
     )
